@@ -39,7 +39,6 @@ You can switch between these modes at any point during your chat session.
     cd <repository-folder>
     ```
 
-    ```
 2.  **Install dependencies:** Open your terminal in the project directory and run:
     ```bash
     pip install -r requirements.txt
