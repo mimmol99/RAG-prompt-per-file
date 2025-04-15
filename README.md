@@ -35,16 +35,12 @@ You can switch between these modes at any point during your chat session.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone <repo-url>
     cd <repository-folder>
     ```
-2.  **Create `requirements.txt`:** Create a file named `requirements.txt` in the project directory and paste the following content into it:
-    ```text
-    gradio
-    openai
-    pypdf2
+
     ```
-3.  **Install dependencies:** Open your terminal in the project directory and run:
+2.  **Install dependencies:** Open your terminal in the project directory and run:
     ```bash
     pip install -r requirements.txt
     ```
@@ -64,7 +60,7 @@ You can switch between these modes at any point during your chat session.
     * **Method 2:** Don't set the environment variable. The application will prompt you to enter it in the UI on startup.
 2.  **Launch the script:**
     ```bash
-    python3 your_script_name.py
+    python3 chat.py
     ```
 3.  Open the local URL provided (e.g., `http://127.0.0.1:7860`) in your web browser.
 
