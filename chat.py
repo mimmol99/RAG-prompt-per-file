@@ -145,7 +145,7 @@ def get_answer_from_content(openai_client: openai.OpenAI, content: str, question
 
     try:
         response = openai_client.chat.completions.create(
-            model="gpt-4.1-nano",
+            model="gpt-4.1-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
